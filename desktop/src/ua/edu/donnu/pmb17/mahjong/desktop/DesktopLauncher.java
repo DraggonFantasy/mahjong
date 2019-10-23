@@ -1,0 +1,12 @@
+package ua.edu.donnu.pmb17.mahjong.desktop;
+
+import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
+import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
+import ua.edu.donnu.pmb17.mahjong.Mahjong;
+
+public class DesktopLauncher {
+	public static void main (String[] arg) {
+		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
+		new LwjglApplication(new Mahjong(), config);
+	}
+}
